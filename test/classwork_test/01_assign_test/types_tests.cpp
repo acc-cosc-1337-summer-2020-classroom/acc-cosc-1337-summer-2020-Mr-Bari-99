@@ -2,7 +2,6 @@
 #include "catch.hpp"
 #include "types.h"
 //hi
-//hope this works
 
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
