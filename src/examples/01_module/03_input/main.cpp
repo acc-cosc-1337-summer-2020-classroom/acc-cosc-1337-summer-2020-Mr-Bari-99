@@ -23,7 +23,7 @@ int main()
 	cout<<"Enter units ";
 	cin>>units;
 	cout<<"Enter rate: ";
-	cin<<rate;
+	cin>>rate;
 
 	double total = get_total(units, rate);
 
