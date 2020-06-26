@@ -12,7 +12,7 @@ Return quotient.
 double get_gc_content(const std::string& dna)
 {
     int count{0};
-    for (int i = 0; i < dna.length(); i++)
+    for (size_t; dna.length(); i++)
     {
         if (dna.at(i) == 'G' || dna.at(i) == 'C')
         {
@@ -57,8 +57,8 @@ c. return string
 
 std::string get_dna_complement(std::string a)
 {
-    std::string str = get_reverse_string(a);
-    for (int i = str.length() - 1; i >= 0 ; i--)
+    string str = get_reverse_string(a);
+    for (size_t; i >= 0 ; i--)
     {
         if (str[i] == 'A')
         {
